@@ -59,4 +59,4 @@ Through this work,we demonstrate through a computational neuroscience model that
 
 *   **Photography and Traveling**: One of my favorite ways to relax is to travel to new places.
 *   **Fitness**: I go to the gym regularly to stay physically active.
-*   **Deep Conversations**: I enjoy discussing philosophy and scientific problems with people.
+*   **Deep Conversations**: I really enjoy discussing philosophy and scientific problems with people.
