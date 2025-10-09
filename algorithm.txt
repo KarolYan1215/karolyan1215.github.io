@@ -1,0 +1,56 @@
+Kai (Karol) Yan
+Shanghai, China | +1 3413338605| karolyan1215@berkeley.edu
+EDUCATION
+Tongji University                                                          Shanghai, China
+B.S. in Engineering Mechanics GPA:86.7 			     	               Expected in July 2026
+University of California, Berkeley (UC Berkeley)                                     CA, USA
+Visiting Student  GPA:3.7/4.0  							    Jan. 2025- May 2025
+Main courses: Reinforcement Learning in Neuroscience, Cognitive Decision Model, Electronic Engineering.
+
+RESEARCH INTEREST
+My research interest mainly focus on the Neural-inspired Algorithm&Hardware, including Algorithms inspired by Brain mechanisms, self-evolving Embodied Agent and their applications on 
+Neuromorphic Devices (In-memory Computing Architecture and Edge Computing Wearable Devices) .
+
+PUBLICATION
+(Under Review) Kai Yan, Yanbing Jia, Huaguang Gu*, Complex dynamics related seizure in network composed of excitatory and inhibitory neurons modulated by inhibitory autapse, Nonlinear Dynamics
+(In preparation for ICLR 2026) Kai Yan, Kaicheng Yu* Reinforcement Learning Enhanced Cognitive Self-Corrected Agent for Autonomous Driving.
+
+RESEARCH EXPERIENCE
+Self-Evolving Autonomous Driving Framework	    				      Hangzhou, China
+Research Assistant | Prof. Kaicheng Yu at Westlake University                      July. 2025-Present
+Set up a demo pipeline on OVD task to validate the ideas from engineering in 1 week and apply Information Theory and Control Theory to derive mathematical expression of the whole system.
+Designed a dual loop framework where VLMs/LLMs work as a cognitive-motivated PMAgent to guide diffusion models(DriveSora) to generate data for long-tail problems in Autonomous Driving based on both gradients and RL. The generation process was designed to be OOD by imitating cognitive conflicts. 
+Based on the native structure of E2E models’ loss function, designed 3 different gradient interpreters to explain gradient tensor flowing back from the fine-tuning and diffusion model structurally.
+Fine-tuned the E2E model (UniAD), via LoRA and Full Parameters Fine-tuning on SSH Linux clusters. Improved the performance on failure cases by 62.5% and reduced the collision rate by 29%.
+Non-invasive EEG Pattern Recognition and Classification by RNN                      CA, USA
+Research Assistant | Prof. Lexin Li at UC Berkeley                              Feb. 2025-July.2025
+Designed a Class-specific RNN from scratch, which assigns a next-step predicting RNN for 6 seizure types annotated in TUH EEG dataset and compare their reconstructing MSE to classify samples.
+Compared the Class-specific RNN with Vanilla RNN baseline on the same multi-classification task. Achieved 100% on all metrics while Vanilla RNN only gets all metrics around 70%.
+Utilized statistic methods such as PCA and t-SNE to analyze hidden state dynamics. Proved that predictors learned unique hidden dynamics by calculating their t-SNE similarity to be larger than 1.4. 
+Planning to apply the classification method to EEG-Language Recovery, which can align the tokens with specific EEG patterns, and thus recover the semantic meaning of sentences from EEG data. 
+Gain-Shift RSNN with Neural Inspired Feedback Control                         CA, USA
+Research Assistant | Prof. Kristofer Bouchard at UC Berkeley                     Jan. 2025-July.2025
+Set up a standard platform codebase with in 2 weeks to run function approximation experiments and analyze results autonomously. Analyze more than 10 models hierarchically with ablation study.
+Inspired by FORCE algorithm, designed a Gain&Shift modulated Recurrent SNN with snnTorch package. Extended SNN type to both Spike-rate SNN and Membrane-potential SNN. Realized different parameter initialization strategies to learn the properties under various situation. Applied STDP & Hebbian Learning Rules to modulate the output weight to simulate biological-plausible behavior.
+Replacing standard stochastic gradient descent (SGD) with a linear-quadratic regulator (LQR) as a controller for parameter training; Imposing Dale's law on the network architecture and implemented this approach in both conventional RNNs trained with SGD and in the gain/shift-based Recurrent SNNs.
+The Complex Dynamics of Seizure	Modulated By Inhibitory Autapses       	Shanghai, China
+Research Assistant | Prof. Huaguang Gu at Tongji University		    	    Apr. 2023-Dec. 2024
+Developed a fast-spiking synchronous neural network in C++ with featuring excitatory and inhibitory neurons with inhibitory autapses. Utilized grid parameter searching to fine the key parameter range for epileptiform pattern, including gamma oscillations and interictal spike-wave complexes. 
+Utilized OriginLab and MATLAB to plot figures to display the attractors on the parameter planes. Applied the Kuromoto-R1 index and firing rate to quantify the seizure extent of networks. Reduced the network synchronism from 0.99 to 0.2 and the Firing rate from 1 to 0 by autapses’ modulation.
+Established evidence for dual-regime autaptic modulation according to bifurcation theory, identified the  parameter plane boundaries through the simulation data, and demonstrated how autapses paradoxically increase firing through delayed negative feedback phase locking.
+
+PROJECT
+NeuroMatch: Predictive Coding Algorithm                                          Remote
+Project Member | Prof. Shaonan Wang at Chinese Academy of Sciences			       July 2024
+Designed and conducted experiments to evaluate the performance of predictive coding vs. backpropagation (BP) algorithms on weight update trajectories and goal alignment, including metrics such as weight learning trajectory, output learning trajectory, goal alignment measures, and gradient variance analysis.
+Performed a comparative analysis of predictive coding’s robustness in gradient consistency, adversarial resistance, continual learning, and concept drift. 
+Proposed a novel cosine similarity index to quantify trajectory alignment, showing that the alignment between PC and STDP rules on the CIFAR-10 dataset was 32% higher than with BP.
+Quantified the stability of the PC algorithm's parameter update direction in deep neural networks (variance reduced to 28% of BP), providing future research directions for more different types of neural network such as CNN or GNN.
+SNN-RL Autonomous Driving System Based on Neuromorphic Computing   	Shanghai, China
+Team Leader | Prof. Peng Yi at Tongji University                        	    Mar. 2024-Apr. 2025
+Performed an in-depth review of 30+ papers spanning neuromorphic computing, spiking neural networks (SNNs), and event-based sensing, and reproduced key methodologies from a Nature publication on reducing event camera latency via Linux-based virtual environment
+Developed a STCNN-SNN-Transformer algorithm to address the energy-accuracy-latency trilemma, where low-frequent ST-CNN can extract spatiotemporal features from RGB inputs and event-driven dual-path SNN can achieve 12ms dynamic detection at 0.8mJ/inference
+Constructed comprehensive simulation environments in UE 4 and Microsoft AirSim, covering 50+ edge cases (adverse weather, sensor failures), and optimized SNN layers for compatibility with Synsense Tech's Xylo neuromorphic chip.
+SKILL
+Programming: C/C++, Python, MySQL, MATLAB, PyTorch, Docker, Bash, Git, Pandas, TensorFlow
+Software: OriginLab, Markdown & LaTeX

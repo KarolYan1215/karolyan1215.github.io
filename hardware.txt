@@ -1,0 +1,50 @@
+Kai (Karol) Yan
+Shanghai, China | +1 34133386055 | karolyan1215@berkeley.edu
+EDUCATION
+Tongji University                                                          Shanghai, China
+B.S. in Engineering Mechanics GPA:86.7 			     	               Expected in July 2026
+University of California, Berkeley (UC Berkeley)                                     CA, USA
+Visiting Student  GPA:3.7/4.0  							    Jan. 2025- May 2025
+Main courses: Reinforcement Learning in Neuroscience, Cognitive Decision Model, Electronic Engineering.
+RESEARCH INTEREST
+My research interest mainly focus on the Neural-inspired Algorithm&Hardware, including Algorithms inspired by Brain mechanisms and their applications on Neuromorphic Devices (In-memory Computing Architecture and Edge Computing Wearable Devices) .
+PUBLICATION
+(Under Review) Kai Yan, Yanbing Jia, Huaguang Gu*, Complex dynamics related seizure in network composed of excitatory and inhibitory neurons modulated by inhibitory autapse, Nonlinear Dynamics
+(In preparation) Xu Xiang, Kai Yan, ...,Wei Kong* Neuromorphic Computing Co-design System based on Ferroelectricity 2D  
+RESEARCH EXPERIENCE
+Neuromorphic Computing Co-design System based on Ferroelectricity 2D   Hangzhou, China
+Research Assistant | Prof. Wei Kong at Westlake University                        July. 2025-Present
+Grew and exfoliated homoepitaxialβ-films from single-crystal substrates using a Plasma-Assisted Molecular Beam Epitaxy (PAMBE) system, with real-time thickness growth monitored by Reflection High-Energy Electron Diffraction (RHEED). Successfully activated the film's ferroelectricity by depositing a metallic stressor layer.
+Utilized 2D  as a middle layer to prepare film memristors and developed a Verilog-A behavioral model for circuit simulation based on measured device metrics, including a decay factor of 0.039, a homogeneity larger than 90%, and a switch voltage of 0.8V.
+Designed and laid out a 1T1R memristor crossbar array integrated with peripheral driving and sensing circuits using the Cadence Virtuoso Suite. Performed HSPICE/Spectre simulations to verify that the circuit design effectively mitigates sneak path and leakage currents, establishing a robust hardware foundation for in-memory computing.
+Deployed a Spiking Neural Network (SNN)-Transformer on the integrated 2D memristor processor to realize natural language processing (NLP). Conducted hardware-software co-simulation to benchmark its performance, demonstrating significant advantages in energy efficiency and latency compared to traditional transistor-based processors.
+Non-invasive EEG Pattern Recognition and Classification by RNN                      CA, USA
+Research Assistant | Prof. Lexin Li at UC Berkeley                              Feb. 2025-July.2025
+Designed a Class-specific RNN from scratch, which assigns a next-step predicting RNN for 6 seizure types annotated in TUH EEG dataset and compare their reconstructing MSE to classify samples.
+Compared the Class-specific RNN with Vanilla RNN baseline on the same multi-classification task. Achieved 100% on all metrics while Vanilla RNN only gets all metrics around 70%.
+Utilized statistic methods such as PCA and t-SNE to analyze hidden state dynamics. Proved that predictors learned unique hidden dynamics by calculating their t-SNE similarity to be larger than 1.4. 
+Planning to apply the classification method to EEG-Language Recovery, which can align the tokens with specific EEG patterns, and thus recover the semantic meaning of sentences from EEG data. 
+Gain-Shift RSNN with Neural Inspired Feedback Control                         CA, USA
+Research Assistant | Prof. Kristofer Bouchard at UC Berkeley                     Jan. 2025-July.2025
+Set up a standard platform codebase with in 2 weeks to run function approximation experiments and analyze results autonomously. Analyze more than 10 models hierarchically with ablation study.
+Inspired by FORCE algorithm, designed a Gain&Shift modulated Recurrent SNN with snnTorch package. Extended SNN type to both Spike-rate SNN and Membrane-potential SNN. Realized different parameter initialization strategies to learn the properties under various situation. Applied STDP & Hebbian Learning Rules to modulate the output weight to simulate biological-plausible behavior.
+Replacing standard stochastic gradient descent (SGD) with a linear-quadratic regulator (LQR) as a controller for parameter training; Imposing Dale's law on the network architecture and implemented this approach in both conventional RNNs trained with SGD and in the gain/shift-based Recurrent SNNs.
+Realization of Logic-operating Circuits based on Ion-Fluidic Memristor		Shenzhen, China
+Research Assistant | Prof. Alessandro Siria at ENS Paris & TsingHua X Institute     Aug. 2024-Sept. 2024
+Performed circuit simulation using Multisim to design NAND gates and conducting patch clamp experiments to validate ion-fluidic memristor behavior within nanoscale fluidic tubes, and adjusted the solution concentration to optimize the memristor’s On/Off ratio to meet the performance requirements.
+Designed lithographic mask layouts with L-Edit and integrated fluidic memristors on silicon wafers and PDMS substrates, and validated the nanoscale ion-fluidic memristor effect.
+Conducted COMSOL simulations to reveal nonlinear ion migration dynamics governed by Poisson–Nernst–Planck (PNP), and demonstrated that surface charge density modulation (σ = -0.02 to +0.05 C/m²) significantly influences ion migration barriers.
+The Complex Dynamics of Seizure	Modulated by Inhibitory Autapses       	Shanghai, China
+Research Assistant | Prof. Huaguang Gu at Tongji University		    	    Apr. 2023-Dec. 2024
+Developed a fast-spiking synchronous neural network in C++ with featuring excitatory and inhibitory neurons with inhibitory autapses. Utilized grid parameter searching to fine the key parameter range for epileptiform pattern, including gamma oscillations and interictal spike-wave complexes. 
+Utilized OriginLab and MATLAB to plot figures to display the attractors on the parameter planes. Applied the Kuromoto-R1 index and firing rate to quantify the seizure extent of networks. Reduced the network synchronism from 0.99 to 0.2 and the Firing rate from 1 to 0 by autapses’ modulation.
+Established evidence for dual-regime autaptic modulation according to bifurcation theory, identified the  parameter plane boundaries through the simulation data, and demonstrated how autapses paradoxically increase firing through delayed negative feedback phase locking.
+PROJECT
+SNN-RL Autonomous Driving System Based on Neuromorphic Computing   	Shanghai, China
+Team Leader | Prof. Peng Yi at Tongji University                        	    Mar. 2024-Apr. 2025
+Performed an in-depth review of 30+ papers spanning neuromorphic computing, spiking neural networks (SNNs), and event-based sensing, and reproduced key methodologies from a Nature publication on reducing event camera latency via Linux-based virtual environment
+Developed a STCNN-SNN-Transformer algorithm to address the energy-accuracy-latency trilemma, where low-frequent ST-CNN can extract spatiotemporal features from RGB inputs and event-driven dual-path SNN can achieve 12ms dynamic detection at 0.8mJ/inference
+Constructed comprehensive simulation environments in UE 4 and Microsoft AirSim, covering 50+ edge cases (adverse weather, sensor failures), and optimized SNN layers for compatibility with Synsense Tech's Xylo neuromorphic chip.
+SKILL
+Programming: C/C++, Python, MATLAB, PyTorch, Pandas, TensorFlow, Bash, Powershell, Docker
+Software: OriginLab, Markdown & LaTeX, Zotero, Verilog-A, Cadence Virtuoso Suite, HSPICE / Spectre
