@@ -7,31 +7,31 @@ redirect_from:
   - /about.html
 ---
 
-Hello, welcome! I'm Karol Yan, a senior student at Tongji University expecting to graduate in 2026. I am actively pursuing a Ph.D. position in NeuroAI/Neuromorphic Computing for Fall 2026. I was a visiting student at UC Berkeley in Spring 2025, where the academic atmosphere left a deep impression on me.
+I'm Karol Yan, a senior undergraduate student at Tongji University, expecting to graduate in 2026. I am actively seeking a Ph.D. position in NeuroAI/Neuromorphic Computing for Fall 2026. I was a visiting student at UC Berkeley in Spring 2025, an experience that profoundly shaped my academic interests.
 
-My major is Engineering Mechanics, which is fundamentally math and physics. I apply these skills to computational neuroscience, neural/cognition-inspired algorithms, and neuromorphic hardware.
+I am majoring in Engineering Mechanics, a discipline grounded in mathematics and physics. I apply this quantitative background to computational neuroscience, neural/cognition-inspired algorithms, and neuromorphic hardware.
 
-My academic journey began with a project on complex dynamics in brain diseases. Understanding how neurons work and how intelligence emerges has been a driving question for me. I have since participated in projects to build artificial intelligence, seeking to understand why current AI algorithms succeed or fail. This has revealed many commonalities between artificial and biological intelligence. Guided by first-principle thinking, I now work on neural-inspired algorithms and hardware to reproduce biological intelligence electronically.
+My academic journey began with an investigation into the complex dynamics of brain diseases. This experience sparked my interest in the fundamental principles of neural function and the emergence of intelligence, which has become a central theme of my academic pursuits. Subsequently, I have engaged in projects focused on building artificial intelligence systems to understand the factors contributing to their successes and failures. These works have highlighted significant parallels between artificial and biological intelligence. Drawing on first-principles thinking, my current work focuses on developing neural-inspired algorithms and hardware to emulate biological intelligence.
 
 ## Research Interests
 
 My previous research focused on leveraging the brain's advantages in algorithms and hardware. Now, I am looking for solutions to overcome several bottlenecks in building intelligent systems from both software and hardware perspectives. My interests primarily lie in **Neuromorphic algorithms & hardware Co-design**, at the intersection of:
 
-*   **Brain-inspired AI/ML and self-evolving agent systems**: As research from the Santa Fe Institute has shown, intelligence emerges from complexity, which requires systems to evolve and sustain themselves. A model with pretrained checkpoints or deployed on a fixed chip may not be able to do this. Thus, I am working on building self-evolving systems.
-*   **Neuromorphic computing and hardware-aware algorithms**: Despite the effectiveness of scaling laws, the resource consumption of large models is becoming unaffordable. I believe hardware-aware algorithms and neuromorphic computing can address this high energy consumption.
-*   **Edge computing on Brain-Computer Interfaces and wearable devices**: Edward O. Wilson argued, "we have Paleolithic emotions, medieval institutions, and god-like technology." This applies to how we use AI today. I am exploring the development of human augmentation devices via BCI or other wearables to enhance our cognitive capabilities, where on-chip edge computing can play a crucial role.
+*   **Brain-inspired AI/ML and self-evolving agent systems**: As research from the Santa Fe Institute suggests, intelligence emerges from complexity, requiring systems to evolve and self-sustain. Conventional models with pretrained weights deployed on fixed hardware lack this capacity. Therefore, my work involves architecting systems capable of self-evolution.
+*   **Neuromorphic computing and hardware-aware algorithms**: Despite the effectiveness of scaling laws, the resource requirements of large-scale models are becoming prohibitive. I believe that hardware-aware algorithms and neuromorphic computing offer promising paths toward energy-efficient computation.
+*   **Edge computing on Brain-Computer Interfaces and wearable devices**: Edward O. Wilson argued, "we have Paleolithic emotions, medieval institutions, and god-like technology." I am exploring the development of human augmentation technologies, such as BCIs and other wearable devices, to enhance human's capabilities. On-chip edge computing will be crucial for the engineering realization of these systems.
 
 ## Contact
 
-The best way to reach me is via email: **karolyan1215@berkeley.edu**. I'm sincerely looking for a PhD position in any of the fields related to what mentioned above for Fall 2026, and I'm open to any opportunities offered. I got solid math skills, many software & hardware engineering experiences, as well as a computational neuroscience background.
+The best way to reach me is via email: **karolyan1215@berkeley.edu**. I am actively seeking a PhD position for Fall 2026 in fields related to my research interests, and I am open to all opportunities. I have a strong background in mathematics, extensive experience in software and hardware engineering, and a foundation in computational neuroscience.
 
-**CV**: [PDF here](/files/CV_Karol_Yan.pdf), up to October 2025.
+**CV**: [PDF here](/files/CV_Karol_Yan.pdf), updated October 2025.
 
 ## Selected Research Projects
 
-## **Realization of Logic-operating Circuits based on Ion-Fluidic Memristor**:
+## **Realization of Logic-operating Circuits based on an Ion-Fluidic Memristor**:
 
-This work demonstrates the realization of functional logic gates from nanoscale ion-fluidic memristors. We establish that their switching behavior is governed by tunable ion migration dynamics, revealing that the device's On/Off ratio can be optimized for robust circuit performance by modulating physical parameters like surface charge and ion concentration.
+This work demonstrates the realization of functional logic gates using nanoscale ion-fluidic memristors. We establish that their switching behavior is governed by tunable ion migration dynamics. This finding reveals that the device's On/Off ratio can be optimized for robust circuit performance by modulating physical parameters such as surface charge and ion concentration.
 
 <p align="center">
   <img src="/images/memristor.png" alt="Memristor Circuit" style="display:inline-block; width:45%; max-width:350px; margin-right:2%;">
@@ -42,21 +42,21 @@ This work demonstrates the realization of functional logic gates from nanoscale 
   <em>Left: Ion-fluidic memristor device structure and switching mechanism. Right: Circuit layout showing the integration of memristor-based logic gates.</em>
 </p>
 
-## **Seizure-related Complex Dynamics in Network Modulated by Inhibitory Autapse**: 
+## **Seizure-related Complex Dynamics in a Network Modulated by Inhibitory Autapses**: 
 
-Through this work,we demonstrate through a computational neuroscience model that autaptic kinetics are critical in determining whether an autapse plays a pro- or anti-epileptic role, revealing that fast autapses can act as a potent endogenous mechanism for seizure termination. The work is under review of Coginitive Dynamics.
+In this work, we built a computational neuroscience model to demonstrate that autaptic dynamics are critical in determining whether an autapse plays a pro- or anti-epileptic role. We find that fast autapses can act as a potent endogenous mechanism for seizure termination. This work is under review at *Cognitive Dynamics*.
 <p align="center">
   <img src="/images/FIG8.png" alt="FIG8" style="display:block; width:80%; max-width:600px; margin:0 auto;">
   <img src="/images/FIG9.png" alt="FIG9" style="display:block; width:80%; max-width:600px; margin:0 auto;">
 </p>
 
 <p align="center">
-  <em>These figures show that whereas a canonical slow autapse exacerbates epileptiform synchrony by suppressing the interneuron and disinhibiting the network, a fast autapse terminates ongoing seizure activity by potentiating interneuron firing to desynchronize the excitatory population.</em>
+  <em>These figures illustrate that while a canonical slow autapse exacerbates epileptiform synchrony by suppressing interneurons and disinhibiting the network, a fast autapse terminates seizure activity by potentiating interneuron firing to desynchronize the excitatory population.</em>
 </p>
 
 
 ## Hobbies & Interests
 
-*   **Photography and Traveling**: One of my favorite ways to relax is to travel to new places.
-*   **Fitness**: I go to the gym regularly to stay physically active.
-*   **Deep Conversations**: I really enjoy discussing philosophy and scientific problems with people.
+*   **Photography and Traveling**: I enjoy exploring new places to relax and take photographs.
+*   **Fitness**: I maintain a regular gym schedule to stay physically active.
+*   **Deep Conversations**: I enjoy engaging in deep discussions on topics in philosophy and science.
