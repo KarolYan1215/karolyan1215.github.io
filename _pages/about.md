@@ -54,6 +54,23 @@ In this work, we built a computational neuroscience model to demonstrate that au
   <em>These figures illustrate that while a canonical slow autapse exacerbates epileptiform synchrony by suppressing interneurons and disinhibiting the network, a fast autapse terminates seizure activity by potentiating interneuron firing to desynchronize the excitatory population.</em>
 </p>
 
+## **Self-evolving Agentic Framework for Open-Vocabulary Object Detection**:
+
+<p align="center">
+  <img src="/images/Gemini_Generated_Image_nzsqylnzsqylnzsq.png" alt="Self-evolving Agentic Framework Overview" style="display:block; width:80%; max-width:800px; margin:0 auto;">
+</p>
+
+I designed a self-evolving agentic framework that closes the loop from failure perception to data completion for open-vocabulary object detection (OVD). The system online-mines hard failure cases, converts error analysis into gradient-steered synthetic data generation, and uses a reinforcement-learning controller to adapt fine-tuning hyperparameters. This framework integrates a self-evolving data loop engine, gradient-driven generation steering, multi-granularity quality control (text–box–image), RL-based hyperparameter adaptation, and task-aligned OVD fine-tuning, enabling targeted repair of long-tail and occlusion-heavy failure modes on COCO with minimal additional human annotation.
+
+<p align="center">
+  <img src="/images/image_000000200162_eigencam_comparison.png" alt="EigenCAM Comparison" style="display:inline-block; width:48%; max-width:400px; margin-right:2%;">
+  <img src="/images/multidim_performance_comparison.png" alt="Multi-dimensional Performance Comparison" style="display:inline-block; width:48%; max-width:400px;">
+</p>
+
+<p align="center">
+  <img src="/images/single_image_gt_movement_arrows.png" alt="GT Movement Visualization" style="display:block; width:80%; max-width:600px; margin:0 auto;">
+</p>
+
 
 ## Hobbies & Interests
 
